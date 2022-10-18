@@ -4,8 +4,14 @@ import {CardVideo} from "./components/CardVideo";
 
 export default function App() {
 
+  // const video1 = {
+  //   imagem: "https://picsum.photos/400/400?a=1"
+  //   titulo: "Video 1"
+  // }
+
   return (
-    <div>
+
+    <>
       <div className="tela-inteira">
         <header>
           <h1>LabeTube</h1>
@@ -26,22 +32,25 @@ export default function App() {
 
           <section className="painel-de-videos">
 
-          <CardVideo/>
-          <CardVideo/>
-          <CardVideo/>
-          <CardVideo/>
-          <CardVideo/>
-          <CardVideo/>
-          <CardVideo/>
-          <CardVideo/>
-            
+          <CardVideo nomeDaProp={"teste"}/>
+          <CardVideo nomeDaProp={"teste"}/>
+          <CardVideo nomeDaProp={"teste"}/>
+          <CardVideo nomeDaProp={"teste"}/>
+          <CardVideo nomeDaProp={"teste"}/>
+          <CardVideo nomeDaProp={"teste"}/>
+          <CardVideo nomeDaProp={"teste"}/>
+          <CardVideo nomeDaProp={"teste"}/>
+
           </section>
         </main>
-
         <footer>
           <h4>Oi! Eu moro no footer!</h4>
         </footer>
       </div>
-    </div>
+    </>
   );
 }
+
+
+
+

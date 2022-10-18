@@ -4,11 +4,11 @@ import {CardVideo} from "./components/CardVideo";
 
 export default function App() {
 
-  // const video1 = {
-  //   imagem: "https://picsum.photos/400/400?a=1"
-  //   titulo: "Video 1"
-  // }
-
+  const video1 = {
+    imagem: "https://picsum.photos/400/400?a=1",
+    titulo: "Video 1"
+  }
+  
   return (
 
     <>
@@ -32,14 +32,14 @@ export default function App() {
 
           <section className="painel-de-videos">
 
-          <CardVideo nomeDaProp={"teste"}/>
-          <CardVideo nomeDaProp={"teste"}/>
-          <CardVideo nomeDaProp={"teste"}/>
-          <CardVideo nomeDaProp={"teste"}/>
-          <CardVideo nomeDaProp={"teste"}/>
-          <CardVideo nomeDaProp={"teste"}/>
-          <CardVideo nomeDaProp={"teste"}/>
-          <CardVideo nomeDaProp={"teste"}/>
+          <CardVideo nomeDaProp={video1}/>
+          <CardVideo nomeDaProp={video1}/>
+          <CardVideo nomeDaProp={video1}/>
+          <CardVideo nomeDaProp={video1}/>
+          <CardVideo nomeDaProp={video1}/>
+          <CardVideo nomeDaProp={video1}/>
+          <CardVideo nomeDaProp={video1}/>
+          <CardVideo nomeDaProp={video1}/>
 
           </section>
         </main>

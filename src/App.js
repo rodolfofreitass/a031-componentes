@@ -10,6 +10,8 @@ export default function App() {
     imagem: "https://picsum.photos/400/400?a=1",
     titulo: "Video 1"
   }
+
+  // teste
   
   const video2 = {
     imagem: "https://picsum.photos/400/400?a=2",
@@ -24,6 +26,7 @@ export default function App() {
   const video4 = {
     imagem: "https://picsum.photos/400/400?a=4",
     titulo: "Video 4"
+    
   }
 
   const video5 = {
